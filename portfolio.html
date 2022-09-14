@@ -28,12 +28,10 @@
 
           <ul class="site-nav list">
             <li class="site-nav-item">
-              <a href="./index.html" class="nav-link link">Студія</a>
+              <a href="./index.html" class="nav-link link current">Студія</a>
             </li>
             <li class="site-nav-item">
-              <a href="./portfolio.html" class="nav-link link current"
-                >Портфоліо</a
-              >
+              <a href="./portfolio.html" class="nav-link link">Портфоліо</a>
             </li>
             <li class="site-nav-item">
               <a href="" class="nav-link link">Контакти</a>
@@ -41,14 +39,20 @@
           </ul>
         </nav>
         <ul class="contact list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link mail"
-              >info@devstudio.com</a
+          <li class="contact-list-item">
+            <a href="mailto:info@devstudio.com" class="link mail">
+              <svg class="icon-header icon-envelope" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
-          <li>
-            <a href="tel:+380961111111" class="link telefon"
-              >+38 096 111 11 11</a
+          <li class="contact-list-item">
+            <a href="tel:+380961111111" class="link telefon">
+              <svg class="icon-header icon-phone" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -224,8 +228,8 @@
     <!-- Footer -->
     <footer class="footer-section">
       <div class="footer-container">
-        <a href="./index.html" class="footer logo"> <span>Web</span>Studio</a>
         <address>
+          <a href="./index.html" class="footer logo"> <span>Web</span>Studio</a>
           <ul class="list">
             <li class="footer-items">
               <a
@@ -248,6 +252,59 @@
             </li>
           </ul>
         </address>
+        <div class="footer-social-links">
+          <h2 class="footer-title-join">Приєднуйтесь</h2>
+          <ul class="list footer-list-social">
+            <li class="team-icon-item">
+              <a
+                href="https://www.instagram.com/"
+                class="social-links footer-links"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-instagram" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-icon-item">
+              <a
+                href="https://twitter.com/"
+                class="social-links footer-links"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-twitter" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-icon-item">
+              <a
+                href="https://facebook.com/"
+                class="social-links footer-links"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-facebook" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-icon-item">
+              <a
+                href="https://www.linkedin.com/"
+                class="social-links footer-links"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-linkedin" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
